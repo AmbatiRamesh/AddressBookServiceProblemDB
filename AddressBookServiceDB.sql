@@ -24,3 +24,6 @@ select firstname from addressbook where state ='tamil nadu';
 -------------- UC7 ------------
 select city,count(*) from addressbook where city ='ravulapalem';
 select state,count(*) from addressbook where state ='tamil nadu';
+
+-------------- UC8 -----------
+select * from addressbook where city ='ravulapalem' order by firstname;
