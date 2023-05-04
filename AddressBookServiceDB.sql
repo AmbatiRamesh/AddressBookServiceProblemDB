@@ -27,3 +27,10 @@ select state,count(*) from addressbook where state ='tamil nadu';
 
 -------------- UC8 -----------
 select * from addressbook where city ='ravulapalem' order by firstname;
+
+------------- UC9 ---------------
+ alter table addressbook add type varchar(50) after email;
+update addressbook set type = 'family' where id = '5';
+update addressbook set type = 'friend' where id = '4';
+update addressbook set type = 'profissional' where id = '7';
+select * from addressbook;
