@@ -17,3 +17,7 @@ select * from addressbook;
 delete from addressbook where id = '6';
 select * from addressbook;
 
+------------- UC6 ----------
+select firstname from addressbook where city ='ravulapalem';
+select firstname from addressbook where state ='tamil nadu';
+
