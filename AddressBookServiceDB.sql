@@ -34,3 +34,7 @@ update addressbook set type = 'family' where id = '5';
 update addressbook set type = 'friend' where id = '4';
 update addressbook set type = 'profissional' where id = '7';
 select * from addressbook;
+
+---------- UC10 ----------------
+select * from addressbook where type ='family' order by firstname;
+select type,count(*) from addressbook where type ='family';
