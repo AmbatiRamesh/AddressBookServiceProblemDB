@@ -13,4 +13,7 @@ update addressbook set firstname ='Dhoni' where id='4';
 update addressbook set lastname = 'MS' where id='4';
 select * from addressbook;
 
+---------- UC5 -----------
+delete from addressbook where id = '6';
+select * from addressbook;
 
